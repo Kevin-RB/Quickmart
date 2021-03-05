@@ -1,0 +1,32 @@
+/* container principal */
+.o-cart-products {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos que organizan los productos segun la foto, elnombre, la cantidad, precio y precio total */
+.o-cart-contain {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.5rem 0 1rem;
+  align-items: center;
+}
+.info-img-name-cont .o-img-product {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+}
+.o-cart-products .product-style {
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+}
+.info-img-name-cont {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.divider-products {
+  width: 100%;
+}

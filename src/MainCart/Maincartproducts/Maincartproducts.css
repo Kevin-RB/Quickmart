@@ -1,0 +1,40 @@
+/* Estilos del contenedor principal */
+.o-cart-products-mm {
+  display: flex;
+  flex-direction: column;
+}
+/* Estilos del contenedor de la información que se muestra */
+.o-cart-contain-mm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.5rem 0 2.5rem;
+  align-items: center;
+}
+
+/* Estilos del contenedor la imagen y el nombre del producto */
+.info-img-name-cont-mm {
+  display: flex;
+  align-items: center;
+  width: 17%;
+}
+
+/* Estilos de la imagen del producto */
+.info-img-name-cont-mm .o-img-product-mm {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+}
+
+/* Estilos del nombre del producto */
+.o-cart-products-mm .product-style-mm {
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+}
+
+/* Estilos del separador entre los productos */
+.divider-products-mm {
+  width: 100%;
+  margin: 0.5rem 0 0.5rem 0;
+}

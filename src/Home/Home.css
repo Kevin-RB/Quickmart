@@ -1,0 +1,20 @@
+html {
+  background-color: #f4f4f4;
+}
+
+/* Estilos del contenedor general de las cards de Home */
+.c-container {
+  background-color: #f4f4f4;
+}
+
+/* EStilos del contenedor del titulo de Home */
+.o-compras-container {
+  padding: 2.5rem 4rem 0 9.3%;
+}
+
+/* EStilos del título dela página de Home */
+.o-compras-text {
+  color: rgb(58, 58, 58);
+  font-weight: 400;
+  font-size: 1rem;
+}

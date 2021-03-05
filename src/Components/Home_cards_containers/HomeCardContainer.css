@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap");
+
+/* Estilos del container titulo de las cards de Home */
+.CardContainerTitle {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-bottom: 2em;
+}
+
+/* Estilos del titulo de las cards de Home */
+.CardContainerTitle h2 {
+  font-weight: 700;
+  padding-left: 2.5%;
+}
+
+/* Estilos del contenerdor de la seccion de cards de Home */
+.Home-Card-Section-Container {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  padding: 1em 7%;
+  margin-bottom: 3em;
+}
+
+/* EStilos del contenedor de las cards de Home */
+.Cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

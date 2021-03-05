@@ -1,0 +1,67 @@
+/* Estilos de los contenedores principales de la cart */
+
+.o-main-cart-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+.o-cart-container {
+  position: fixed;
+  z-index: 1;
+  width: 40rem;
+  height: 100%;
+  background-color: white;
+}
+
+/* Estilos del contenedor para el nombre del mercado */
+.o-market-name {
+  margin-top: 0.5rem;
+}
+
+/* Estilos del contenedor del titulo del carrito */
+.o-cart-name-main {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  justify-content: space-between;
+  height: 5rem;
+  box-shadow: 3px 8px 7px -3px rgba(137, 137, 137, 0.6);
+}
+
+/* Estilos del titulo del carrito */
+.o-carrito-style {
+  font-size: 1.5rem;
+  color: rgb(53, 53, 53);
+}
+
+/* Estilos del botón de cerrar */
+.o-cart-close-button {
+  border: 0;
+  background-color: transparent;
+}
+
+.o-divider-style {
+  margin: 0;
+}
+
+/* Estilos del conteiner de los productos */
+.o-cart-products-cart {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos del contenedor de la lista de producto, cantidad, precio y total */
+.o-title-name-cart {
+  color: rgb(53, 53, 53);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem 1rem 7rem;
+}
+
+/* Estilos de los títulos de la lista */
+.o-tile-name {
+  font-size: 1rem;
+}

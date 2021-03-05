@@ -1,0 +1,16 @@
+/* Estilos del botón del logo */
+
+.o-logo-styles {
+  width: 10rem;
+  border: 0;
+  background-color: white;
+  margin-right: 1rem;
+}
+.o-logo-styles:focus {
+  outline: none;
+}
+
+/* Estilos de la imagen del logo */
+.o-img-logo {
+  width: 100%;
+}

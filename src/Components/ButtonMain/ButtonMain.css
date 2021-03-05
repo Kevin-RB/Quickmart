@@ -1,0 +1,24 @@
+/* Estilos del botón main */
+.o-main-button-container .button-main {
+  background-color: #ff6117;
+  border-radius: 20px;
+  box-shadow: -3px 5px 7px -3px rgba(137, 137, 137, 0.78);
+  height: 2.5rem;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  padding: 0 1.5rem 0 1.5rem;
+  border: #ff6117;
+  transition: all ease 0.4;
+}
+
+.o-main-button-container .button-main:hover {
+  background-color: #e25513;
+  color: white;
+}
+.o-main-button-container .button-main:focus {
+  outline: none;
+}

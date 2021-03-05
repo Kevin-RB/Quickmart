@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap");
+
+html {
+  background-color: #f4f4f4;
+}
+
+/* Container principal de la página de busqueda */
+.o-main-search-container {
+  height: 100vh;
+}
+
+/* Container que contiene todos los carrouseles de cards qque se muestren en la bsuqeuda */
+.main-big-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container de todos los componentes despues del nav */
+.o-info-container {
+  background-color: #f4f4f4;
+  display: flex;
+  position: relative;
+}
+
+/* Containers de un carrousel */
+.main-market-container {
+  width: 100%;
+  display: flex;
+  padding-top: 2em;
+  justify-content: center;
+}
+
+.market-container-busqueda {
+  background-color: white;
+  padding: 0rem 1rem 0rem 1rem;
+  width: 90%;
+  height: 610px;
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 8px 7px -3px rgba(137, 137, 137, 0.6);
+}
+
+/* Containers del header del carrousel, que muestra el logo y la imagen de cada mercado */
+.top {
+  display: flex;
+  justify-content: center;
+  /* padding-bottom: 1rem; */
+}
+
+.top-content {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  /* padding-top: 1rem; */
+  align-items: center;
+}
+
+.topL-content {
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Estilos del logo del header */
+
+.img-market {
+  width: 80px;
+  height: 80px;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.centerSolid {
+  display: flex;
+  justify-content: center;
+}
+
+.solid {
+  width: 90%;
+  opacity: 0.3;
+  padding-top: 2rem;
+  border-top: 1px solid #8f8f8f;
+}
+
+/* Estilos del titulo del header */
+.T-title {
+  padding-left: 0.5rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Estilos del botón de ver más */
+.p-ver {
+  padding-top: 1rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(22, 22, 22);
+}
+
+.p-ver:hover {
+  color: rgb(255, 79, 47);
+  text-decoration: none;
+}
+
+/* Estilos predeterminados del carrousel */
+.bkVSTc {
+  display: none;
+}
+
+.card-container .bkVSTc .DIuaA {
+  display: none;
+}
+
+.card-container .bkVSTc .gUWalH {
+  display: none;
+}
+
+.card-container .bkVSTc .DIuaA {
+  display: none;
+}
+
+.card-container .bkVSTc .gUWalH {
+  display: none;
+}
+/* ------------------------------------------ */
+@media only screen and (max-width: 990px) {
+  .o-info-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+}

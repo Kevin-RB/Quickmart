@@ -1,0 +1,69 @@
+/* Estilos del container principal */
+.o-filters-main {
+  background-color: #ffffff;
+  width: 20rem;
+  box-shadow: -3px 6px 13px -3px rgba(137, 137, 137, 0.49);
+}
+
+/* Estilos del slidedown del filtro */
+.o-dropdown-market-container {
+  padding: 0.5rem;
+  background-color: #f7f7f7;
+  height: 20rem;
+  overflow: auto;
+  width: 100%;
+}
+.o-dropdown-market-container::-webkit-scrollbar {
+  width: 7px;
+}
+.o-dropdown-market-container::-webkit-scrollbar-thumb {
+  background: #ff6117;
+  border-radius: 5px;
+}
+
+/* EStilos del container del filtro de precios */
+.o-main-info-filter {
+  padding: 4rem 1.5rem 2rem 1.5rem;
+}
+
+/* EStilos de los títulos del filtro */
+.o-main-title {
+  color: rgb(107, 107, 107);
+  margin-bottom: 1rem;
+}
+
+.market-name-filter {
+  font-size: 1rem;
+  color: rgb(107, 107, 107);
+}
+
+/* EStilos del input del nombre del mercado */
+.o-input-Name-Market {
+  background-color: white;
+  border-radius: 9px;
+  height: 2.5rem;
+  width: 17rem;
+  display: flex;
+  padding-left: 0.8rem;
+  align-items: center;
+  border: 1px solid;
+  border-color: #fc9869;
+}
+.o-input-Name-Market:focus {
+  outline: none;
+}
+.o-price-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* EStilos del responsive */
+@media only screen and (max-width: 990px) {
+  .o-filters-main {
+    position: fixed;
+    z-index: 1;
+    transform: translateX(-320);
+    transition: all ease 0.4s;
+    display: none;
+  }
+}

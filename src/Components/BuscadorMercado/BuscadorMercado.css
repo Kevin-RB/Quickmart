@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap");
+
+/* Estilos del contenedor principales del buscador del mercado */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.market-container-super {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  width: 80%;
+  height: 300px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+
+  background-image: url(../../assets/img/merca.jpg), none;
+  background-size: cover;
+}
+
+/* Estilos de la imagen del contenedor del buscador */
+.market-img {
+  width: 90px;
+  height: 90px;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+/* Estilos del tñitulo del contenedor del buscador */
+.market-name {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 1rem;
+}

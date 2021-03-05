@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* Container main del buscador */
+.o-main-search {
+  width: 52%;
+  margin-left: 2rem;
+}
+
+/* Container inicial del buscador */
+.o-buscador-container {
+  background-color: white;
+  border-radius: 9px;
+  box-shadow: -3px 6px 13px -3px rgba(137, 137, 137, 0.49);
+  height: 2.5rem;
+  width: 100%;
+  display: flex;
+  padding-left: 0.5rem;
+  align-items: center;
+  border: 1px solid;
+  border-color: #fc9869;
+}
+
+/* Estilos del icono del buscador */
+
+.o-buscador-container .o-icon {
+  color: #ff6117;
+  margin-right: 0.5rem;
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+/* Estilos del input  del buscador */
+.o-input-buscador {
+  border: 0;
+  border-color: transparent;
+  width: 95%;
+  padding-left: 0.5rem;
+}
+
+.o-input-buscador:focus {
+  outline: none;
+}
+
+/* Estilos del botón del buscador */
+.o-button-searchbar {
+  border: 0;
+  background-color: transparent;
+}
+
+.o-button-searchbar:focus {
+  outline: none;
+}
+
+/* Estilos para la parte responsive */
+@media only screen and (max-width: 616px) {
+  .o-main-search {
+    width: 80%;
+    margin-left: 2rem;
+  }
+}

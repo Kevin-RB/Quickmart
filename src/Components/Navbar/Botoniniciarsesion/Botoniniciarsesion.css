@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* Estilos del contenedor principal del botón de iniciar sesión y del carrito */
+.o-last-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 20rem;
+  margin-left: 3rem;
+}
+
+/* Estilos del botón del login */
+.o-button-login {
+  background-color: white;
+  border-radius: 9px;
+  box-shadow: -3px 5px 7px -3px rgba(137, 137, 137, 0.78);
+  height: 2.5rem;
+  width: 10rem;
+  display: flex;
+  padding-left: 0.8rem;
+  align-items: center;
+  border: 0;
+  background-color: #fffefb;
+  color: #ff6117;
+  font-weight: 700;
+  margin: 0 0.5rem 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.o-button-login:focus {
+  outline: none;
+}
+
+/* Estilos del icono del boton de login */
+.o-button-login .o-icon {
+  color: #ff6117;
+  margin-right: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+/* Estilos del botón del carrito */
+.o-cart {
+  border: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.o-cart:hover {
+  background-color: transparent;
+}
+.o-cart:active {
+  background-color: transparent;
+}
+
+.o-cart:focus {
+  outline: none;
+}
+
+/* Estilos del icono del botón del carrito */
+.o-cart .o-icon1 {
+  color: #ff6117;
+  margin-right: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.o-cart .o-icon1:hover {
+  color: #e75613;
+  margin-right: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* Estilos del texto del botón de inicio de sesión */
+.o-text-button {
+  margin: 0;
+}
+
+.o-input-location {
+  border: 0;
+  border-color: transparent;
+  width: 80%;
+}
+
+/* Estilos del responsive para el narbar */
+@media only screen and (max-width: 616px) {
+  .o-text-button {
+    display: none;
+  }
+
+  .o-button-login {
+    width: 2.5rem;
+    padding: 0 0.5rem 0 0.5rem;
+  }
+}

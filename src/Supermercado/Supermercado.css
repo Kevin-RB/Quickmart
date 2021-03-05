@@ -1,0 +1,50 @@
+/* Estilos del contenedor principal */
+.global-container {
+  background-color: #f4f4f4;
+}
+/* Cntenedor de los carrouseles de las cards */
+.main-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-big-container-market {
+  width: 89%;
+}
+
+/* Estilos del contenedor del dropdown de secciones de busqueda */
+.seccion-container {
+  margin: 0.5rem;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+/* Estilos del dropdown */
+.drop-c {
+  padding-left: 10px;
+}
+
+
+/* Estilos de los botones */
+.btn-primary {
+  color: #fff;
+  background-color: #ff5100;
+  border-color: #ff5100;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #e74a01;
+  border-color: #ff5100;
+}
+
+.btn-primary:valid {
+  color: #fff;
+  background-color: #e74a01;
+  border-color: #ff5100;
+}

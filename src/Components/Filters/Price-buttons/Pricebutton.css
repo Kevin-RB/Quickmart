@@ -1,0 +1,24 @@
+/* Estilos del botón de los filtros de los precios */
+.o-price-button {
+  background-color: white;
+  border-radius: 20px;
+  height: 2.5rem;
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background-color: #ffffff;
+  color: rgb(83, 83, 83);
+  font-weight: 400;
+  border: solid 1px #ff6117;
+  margin: 0.5rem;
+  transition: all ease-in-out 0.1s;
+}
+.o-price-button:hover {
+  background-color: #ff6117;
+  color: white;
+}
+.o-price-button:focus {
+  outline: none;
+}

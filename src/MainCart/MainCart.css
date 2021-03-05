@@ -1,0 +1,114 @@
+html {
+  background-color: #f4f4f4;
+}
+
+/* Contenedores principales de la página del carrito */
+.o-main-cart-page-mm .main-container-cart-mm {
+  width: 100%;
+  padding: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.cart-container-2-mm {
+  width: 80%;
+  height: 50rem;
+  background-color: white;
+  box-shadow: 3px 8px 7px -3px rgba(137, 137, 137, 0.6);
+  border-radius: 1rem;
+}
+
+/* Estilos del contenedor del nombre del mercado */
+
+.o-market-name-mm {
+  margin-top: 0.5rem;
+}
+
+.o-cart-name-main-mm {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem 0 2rem;
+  justify-content: space-between;
+  height: 3.5rem;
+  box-shadow: 3px 8px 7px -3px rgba(137, 137, 137, 0.6);
+}
+
+/* Estilos del título de Mi carrito */
+.o-carrito-style-mm {
+  font-size: 1.5rem;
+  color: rgb(53, 53, 53);
+}
+
+/* Estilos de la división entre productos */
+.o-divider-style-mm {
+  margin: 0;
+}
+
+/* Estilos del contenedor de los productos */
+.o-cart-products-cart-mm {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos del contenedor de los titulos de producto, cantidad, precio y total */
+.o-title-name-cart-mm {
+  color: rgb(53, 53, 53);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem 1rem 8rem;
+}
+
+/* Estilos de cada título */
+.o-tile-name-mm {
+  font-size: 1rem;
+  padding-left: 2rem;
+}
+
+/* Estilos del título de método de pago */
+.o-name-cart-mm {
+  font-size: 1.2rem;
+  color: rgb(71, 71, 71);
+}
+
+/* Estilos del contenedor de productos */
+.products-main-cart-mm {
+  height: 18rem;
+  overflow: auto;
+  width: 100%;
+}
+
+.products-main-cart-mm::-webkit-scrollbar {
+  width: 7px;
+}
+
+.products-main-cart-mm::-webkit-scrollbar-thumb {
+  background: #ff6117;
+  border-radius: 5px;
+}
+
+/* Estilos del contenedor del botón de métodos de pago */
+.o-total-cart-mm {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+/* Estilos de los botones de seguir comprando o finalizar compra */
+.o-cart-final-buttons {
+  padding-top: 1.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Estilos de los botones de los modales */
+
+.button-modal-container {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,36 @@
+/* Estilos del botón de supermercados del filtro */
+.o-market-button {
+  background-color: white;
+  border-radius: 9px;
+  height: 2.5rem;
+  width: 17rem;
+  display: flex;
+  padding-left: 0.8rem;
+  align-items: center;
+  border: 0;
+  color: rgb(83, 83, 83);
+  font-weight: 400;
+  margin: 0 0.5rem 0 1rem;
+  border: 0;
+  margin: 1rem;
+}
+
+.o-market-button:hover {
+  background-color: #ff6117;
+  color: white;
+}
+
+.o-market-button:focus {
+  outline: none;
+}
+
+/* Estilos del icono del botón del filtro */
+.o-market-button .o-icon-market {
+  padding: 0.1rem 0.5rem 0rem 0rem;
+  width: 1.8rem;
+  height: 1.5rem;
+}
+
+.o-market-button .o-icon-market:hover {
+  color: white;
+}

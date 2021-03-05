@@ -1,0 +1,22 @@
+/* Estilos del boton de agregar producto */
+.btnQuick{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    background: #FF6117;
+    border-radius: 15px;
+    padding: 0.2rem;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+}
+
+.btnQuick:hover{
+    background: #ff5100;
+}
+
+.btnQuick:focus{
+    outline: none;
+}

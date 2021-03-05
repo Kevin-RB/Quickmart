@@ -1,0 +1,30 @@
+/* Estilo general de los botones de agregar productos */
+.o-btnStyle {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: white;
+  background: #ff6117;
+  border-radius: 15px;
+  /* padding: 0.2rem; */
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+
+/* Estilos del botón del centro */
+
+.o-btnStyle.o-btnCenter {
+  font-size: 18px;
+  width: 3rem;
+  margin: 0 0.2rem 0 0.2rem;
+}
+
+.o-btnStyle:hover {
+  background: #ff5100;
+}
+
+.o-btnStyle:focus {
+  outline: none;
+}

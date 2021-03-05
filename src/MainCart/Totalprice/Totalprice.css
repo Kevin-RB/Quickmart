@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* Estilos del contenedor principal */
+.o-info-price-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem 0 2rem;
+}
+
+/* Estilos del texto del subtotal */
+.o-subtotal {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(68, 68, 68);
+}
+
+/* Estilos del precio total */
+.o-sec-text {
+  font-size: 1rem;
+  color: rgb(32, 32, 32);
+}

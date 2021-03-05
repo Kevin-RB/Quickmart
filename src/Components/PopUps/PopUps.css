@@ -1,0 +1,26 @@
+/* Estilos del botón main */
+.button-main {
+  background-color: #ff6117;
+  border-radius: 20px;
+  box-shadow: -3px 5px 7px -3px rgba(137, 137, 137, 0.78);
+  height: 2.5rem;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  padding: 0 0.6rem 0 0.6rem;
+  border: #ff6117;
+  transition: all ease 0.4;
+}
+
+/* Estilos del coontainer de los check */
+.o-methods-component {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.o-check-style {
+  margin: 1rem 0 1rem 0;
+}
