@@ -17,7 +17,7 @@ npm install
 Done :D
 ## Usage
 
-To run the project, is as simple as using the command:
+To run the project, use the command:
 ```bash
 /npm start
 ```
