@@ -8,7 +8,7 @@ download or clone the project.
 
 then move to the project route.
 ```bash
-/Quickmart
+cd ../Quickmart
 ```
 install dependencies
 ```bash
@@ -21,5 +21,5 @@ To run the project, is as simple as using the command:
 ```bash
 /npm start
 ```
-The proyect will open in the browser.
-Enjoy 🔥.
+The proyect will open in the browser,
+enjoy 🔥.
