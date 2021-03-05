@@ -14,7 +14,7 @@ install dependencies
 ```bash
 npm install
 ```
-Done :D.
+Done :D
 ## Usage
 
 To run the project, is as simple as using the command:
@@ -22,4 +22,4 @@ To run the project, is as simple as using the command:
 /npm start
 ```
 The proyect will open in the browser,
-enjoy 🔥.
+enjoy 🔥
