@@ -9,7 +9,7 @@ function Maincartproducts({ imgsrc, productName, numproduct, price, totalProduct
         <div className="o-cart-products-mm">
             <div className="o-cart-contain-mm">  
                 <div className="info-img-name-cont-mm">
-                    <img className="o-img-product-mm" src={imgsrc}  alt=""/>
+                    <img className="o-img-product-mm" src={imgsrc} />
                     <h5 className="product-style-mm"> {productName}</h5>
                 </div>
                     <p className="product-style-mm" >{numproduct}</p>

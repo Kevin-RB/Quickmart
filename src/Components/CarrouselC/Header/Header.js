@@ -10,7 +10,7 @@ function Header({imgHeader, textHeader}) {
             <div className="top">
                 <div className="top-content">
                     <div className="topL-content">
-                        <img className="img-market" src={imgHeader} alt=""/>
+                        <img className="img-market" src={imgHeader} />
                         <h2 className="T-title">{textHeader}</h2>
                     </div>
                     <div className="topR-content">

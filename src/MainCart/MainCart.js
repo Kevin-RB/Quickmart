@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Modal from 'react-modal';
 import  Navbar  from '../Components/Navbar/Navbar';
 import img from '../assets/img/bochalema.jpg';

@@ -9,7 +9,7 @@ function BuscadorMercado({mercadoImg,mercadoText}){
     return (
         <div className="main-container">
             <div className="market-container-super">
-                <img className="market-img" src={mercadoImg} alt=""></img>
+                <img className="market-img" src={mercadoImg}></img>
                 <h2 className="market-name">{mercadoText}</h2>
                 <MainBuscador></MainBuscador>
             </div>

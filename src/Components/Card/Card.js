@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Button from '../Button/Button';
 import ButtonPlus from '../ButtonPlus/ButtonPlus';
 
 import './Card.css';
@@ -24,7 +25,7 @@ function Card({ imagePick, titleText, messageText, marcaText }) {
 
         <div className="o-card">
             <div className="o-imgCard-container">
-                <img className="o-imgCard" src={imagePick} alt=""/>
+                <img className="o-imgCard" src={imagePick} />
             </div>
             <h2 className="o-title">{titleText}</h2>
             <p className="o-message">{messageText}</p>
