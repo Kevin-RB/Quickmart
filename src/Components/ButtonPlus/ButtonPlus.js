@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+// import React, {useState} from 'react';
 import './ButtonPlus.css';
 import { withRouter } from "react-router";
 // Botón general para las cards de agregar productos 
 
-let numpro=0;
+// let numpro=0;
 function ButtonPlus(props){
  
     return (

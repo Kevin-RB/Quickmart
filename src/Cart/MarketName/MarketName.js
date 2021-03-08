@@ -9,7 +9,7 @@ function MarketName({ imgsrc, Marketname}) {
         <div className="o-cart-name">
             <div className="o-info-container-name">
                 {/* Contenedor del logo del mercado y el nombre */}
-                <img className="o-img-cart" src={imgsrc} />
+                <img className="o-img-cart" src={imgsrc} alt=""/>
                 <h2 className="o-name-cart">
                     {Marketname}
                 </h2>

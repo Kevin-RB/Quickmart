@@ -11,7 +11,7 @@ function Cartproductos({ imgsrc, productName, numproduct, price, totalProductPri
         <div className="o-cart-products">
             <div className="o-cart-contain">
             <div className="info-img-name-cont">
-                <img className="o-img-product" src={imgsrc} />
+                <img className="o-img-product" src={imgsrc} alt=""/>
                 <h5 className="product-style"> {productName}</h5>
             </div>
                 <p className="product-style" >{numproduct}</p>

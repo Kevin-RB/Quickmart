@@ -9,7 +9,7 @@ function InfoPopCongrats() {
     return (
      <div >
          <div className="o-congrats-container">
-            <img className="o-img-cong" src={img} />
+            <img className="o-img-cong" src={img} alt=""/>
          </div>
          <hr className="o-divider-style-cc"></hr>  
          <h4 className="o-title-cong"> ¡Compra Exitosa!</h4> 
