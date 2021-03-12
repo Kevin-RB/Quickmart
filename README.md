@@ -10,6 +10,7 @@ Built in:
   - React: 17.0.1
 
 Dependencies:
+
     "bootstrap": "^4.5.3",
     "firebase": "^8.1.1",
     "react": "^17.0.1",
