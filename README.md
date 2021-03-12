@@ -28,7 +28,9 @@ Dependencies:
     "@fortawesome/react-fontawesome": "^0.1.12",
 ## Gallery
 
-<img src="https://giphy.com/embed/l0Ex6Ut39Zj7DzJn2" width="500" height="500" />
+![Alt Text](https://giphy.com/embed/l0Ex6Ut39Zj7DzJn2)
+
+![Alt Text](<img src="https://giphy.com/embed/l0Ex6Ut39Zj7DzJn2" width="500" height="500" />)
 
 ## Installation
 
