@@ -28,7 +28,7 @@ Dependencies:
     "@fortawesome/react-fontawesome": "^0.1.12",
 ## Gallery
 
-<iframe src="https://giphy.com/embed/l0Ex6Ut39Zj7DzJn2" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/schittscreek-schitts-creek-l0Ex6Ut39Zj7DzJn2">via GIPHY</a></p>
+<img src="https://giphy.com/embed/l0Ex6Ut39Zj7DzJn2" width="500" height="500" />
 
 ## Installation
 
