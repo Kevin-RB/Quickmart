@@ -26,6 +26,9 @@ Dependencies:
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.12",
+## Gallery
+
+<iframe src="https://giphy.com/embed/l0Ex6Ut39Zj7DzJn2" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/schittscreek-schitts-creek-l0Ex6Ut39Zj7DzJn2">via GIPHY</a></p>
 
 ## Installation
 
