@@ -1,3 +1,4 @@
+
 # Quickmart
 
 Quickmart is a demo project made for the "Web development" course, its purpose is to simulate an online grocery store where medium and small stores can offer their product by name, photo and price. The customers can select the market they want to buy from, the products and store them in the shopping cart. Finally, make the payment and receive their purchases by delivery.
@@ -28,9 +29,11 @@ Dependencies:
     "@fortawesome/react-fontawesome": "^0.1.12",
 ## Gallery
 
-![Alt Text](https://giphy.com/embed/l0Ex6Ut39Zj7DzJn2)
+![gif](https://giphy.com/embed/l0Ex6Ut39Zj7DzJn2)
 
-![Alt Text](<img src="https://giphy.com/embed/l0Ex6Ut39Zj7DzJn2" width="500" height="500" />)
+![gif](<img src="https://giphy.com/embed/l0Ex6Ut39Zj7DzJn2" width="500" height="500" />)
+
+![pain](https://user-images.githubusercontent.com/69731479/110882752-68db7580-82b0-11eb-9f2f-309d5ae12bf2.jpg)
 
 ## Installation
 
