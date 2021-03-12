@@ -29,11 +29,8 @@ Dependencies:
     "@fortawesome/react-fontawesome": "^0.1.12",
 ## Gallery
 
-![gif](https://giphy.com/embed/l0Ex6Ut39Zj7DzJn2)
-
-![gif](<img src="https://giphy.com/embed/l0Ex6Ut39Zj7DzJn2" width="500" height="500" />)
-
 ![pain](https://user-images.githubusercontent.com/69731479/110882752-68db7580-82b0-11eb-9f2f-309d5ae12bf2.jpg)
+![4](https://user-images.githubusercontent.com/69731479/110886884-57499c00-82b7-11eb-8392-2471cb056186.gif)
 
 ## Installation
 
